@@ -64,14 +64,7 @@ button {
     gap: 10px;
     text-align: center;
 }
-#selectUnit1{
-    padding-left: 45px;
-    padding-bottom : 12px;
-}
-#selectUnit2{
-    padding-right: 50px;
-    padding-bottom : 12px;
-}
+
 
 #buttons{
     text-align: center;
@@ -116,3 +109,4 @@ button {
     padding-top : 5px;
     padding-bottom: 12px;
 }
+
