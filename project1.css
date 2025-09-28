@@ -1,0 +1,106 @@
+body {
+    background-color: #f0f4f8;
+}
+
+input, select {
+  font-size: 12px;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f0f4f8;
+  color: #333;
+  box-sizing: border-box;
+}
+
+option{
+    font-family :'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+footer{
+    border: 1px solid black;
+    padding-bottom : 0px;
+    margin-bottom: 0px  ;
+}
+
+button {
+    border-radius: 5px;
+    font-family :'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f0f4f8;
+}
+#title {
+    font-family :'Courier New', Courier, monospace;
+    text-align : center;
+    font-size : 40px;
+    font-weight: bold;
+    background-color : #f0f4f8;
+    margin : 130px 0px 20px;
+    text-shadow: 1px 2px;
+}
+#mainbox {
+    font-family :'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin : 50px 510px 50px;
+    background-color:hsl(from rgb(234, 209, 213) h s l);
+    border-radius : 10px;
+    box-shadow: 4px 6px;
+    border : 2px solid black;
+ 
+}
+
+#inputNumber{
+    text-align : center;
+    padding-top : 12px;
+    padding-bottom : 12px;
+}
+
+#selectUnit0{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5px;
+    text-align : center;
+}
+#selectUnit1{
+    padding-left: 45px;
+    padding-bottom : 12px;
+}
+#selectUnit2{
+    padding-right: 50px;
+    padding-bottom : 12px;
+}
+
+#buttons{
+    text-align: center;
+    margin-bottom: 0px;
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom : 12px;
+    padding-top : 8px;
+ 
+}
+
+#convertButton {
+    padding-left : 175px;
+
+}
+#swapButton {
+    padding-right : 175px;
+
+   
+}
+
+
+
+.box{
+    padding : 5px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.output {
+    text-align: center;
+}
+
+#outputFormula {
+    padding-top : 5px;
+    padding-bottom: 12px;
+}

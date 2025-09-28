@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="project1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Conventer</title>
+</head>
+
+<body>
+
+    <div id="title">Temperature Conventer</div>
+
+    <div id="mainbox">
+        
+        <div id="inputNumber" class="box">
+            <label>Input your Number <b>:</b></label>
+            <input id="inputValue" type="text" pattern="\d*" inputmode="numeric" placeholder="Number">
+        </div>
+
+        <div id="selectUnit0">
+            <form>  
+                <div id="selectUnit1" class="box">
+                    <label>From</label>
+                    <select id="fromUnit">
+                        <option value="C">Celsius (°C)</option>
+                        <option value="F">Fahrenheit (°F)</option>
+                        <option value="K">Kelvin (K)</option>
+                        <option value="R">Rankine (°R)</option>
+                        <option value="Re">Réaumur (°Re)</option>
+                        <option value="Ro">Rømer (°Rø)</option>
+                        <option value="De">Delisle (°De)</option>
+                        <option value="N">Newton (°N)</option>
+                    </select>
+                </div> 
+                </form>
+                <form>  
+                <div id="selectUnit2" class="box">
+                    <label>To</label>
+                    <select id="toUnit">
+                        <option value="C">Celsius (°C)</option>
+                        <option value="F">Fahrenheit (°F)</option>
+                        <option value="K">Kelvin (K)</option>
+                        <option value="R">Rankine (°R)</option>
+                        <option value="Re">Réaumur (°Re)</option>
+                        <option value="Ro">Rømer (°Rø)</option>
+                        <option value="De">Delisle (°De)</option>
+                        <option value="N">Newton (°N)</option>
+                    </select>
+                </div> 
+                </form>
+        </div>
+
+        <div id="buttons">
+            <div id="convertButton">
+                <button onclick="convertTemp()">Convert</button>
+            </div>
+            
+            <div id="swapButton">
+                <button onclick="swapUnits()">Swap</button>
+            </div>
+        </div>
+
+        <div id="outputresults" class="output">
+            <div id="results"><script src="project1.js"></script></div>
+        </div>
+        <div id="outputFormula" class="output">
+            <div id="formulas"><script src="project1.js"></script></div>
+        </div>
+    </div>
+     
+</body>
+
+</html>
