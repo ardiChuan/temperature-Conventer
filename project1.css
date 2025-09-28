@@ -63,6 +63,7 @@ button {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     text-align: center;
+  
 }
 
 
@@ -72,19 +73,10 @@ button {
     display : grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom : 12px;
-    padding-top : 8px;
+    padding-top : 8px; 
+    border : 1px solid black;
  
 }
-
-#convertButton {
-    padding-left : 175px;
-
-}
-#swapButton {
-    padding-right : 175px;
-  
-}
-
 
 .box{
     padding : 5px;
