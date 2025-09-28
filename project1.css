@@ -85,16 +85,6 @@ button {
   
 }
 
-@media (max-width: 600px) {
-  #selectUnit0 {
-    grid-template-columns: 1fr;
-  }
-
-  #buttons {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-}
 
 .box{
     padding : 5px;
@@ -109,4 +99,5 @@ button {
     padding-top : 5px;
     padding-bottom: 12px;
 }
+
 
